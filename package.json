@@ -1,0 +1,13 @@
+{
+  "name": "cep3.0",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "client": "cd front-end && npm start",
+    "server": "cd back-end && node api.js",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(#352874, #0C0723);
+
+}
+
+.divMae{
+    border-radius: 5px;
+}
+
+.divA{
+    justify-content: space-between; 
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+}
+
+.divA input{
+    border: 0;
+    background-color: transparent;
+
+}
+
+.divA .botao{
+    justify-content: left;
+    outline: none;
+    width: 260px;
+    height: 33px;
+    font-size: 25px;
+    border-radius: 5px;
+
+}
+
+.divA .buttonSearch{
+    border: 0;
+    background-color: transparent;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.divB{
+    margin-top: 5px;
+    background-color: rgb(119, 119, 119);
+    border-radius: 5px;
+    width: 300;
+}
+
+.title{
+    font-size: 85px;
+    color: #f7f5f5;
+}
+
+.main span{
+    color: #fafafa;
+
+}
+
+.main h2{
+    color:whitesmoke
+}
+
+h1{
+    color:#ffffff;
+    font-size: 25px;
+}
+
+
+
+
